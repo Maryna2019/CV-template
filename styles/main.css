@@ -1,0 +1,171 @@
+.html,
+body {
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-image: url(https://dev.marbledistilling.com/wp-content/uploads/2017/08/marble_bg.jpg?id=61);
+}
+#menu {
+  padding: 0;
+  text-align: right;
+}
+#menu li {
+  display: inline;
+  margin: 10px 10% 5px 0;
+  padding: 7px 0 5px;
+  border-radius: 12px;
+  background: #D3D3D3;
+}
+#menu li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  margin: 0 4px 0 12px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline;
+  color: #2F4F4F;
+}
+#main-title {
+  text-align: center;
+  color: #2F4F4F;
+  font-size: 40px;
+}
+#about-me {
+  display: flex;
+  justify-content: space-between;
+}
+#about-me #column-left {
+  width: 50%;
+}
+#about-me #column-left #name-surname {
+  display: flex;
+  flex-flow: column;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 30px;
+  text-align: flex-start;
+  margin: 0 5%;
+  padding-top: -20px;
+  text-align: center;
+  color: #5F9EA0;
+}
+#about-me #column-left .quote {
+  display: flex;
+  flex-flow: column;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  height: 120px;
+  margin: 0 5%;
+  padding-top: 50px;
+}
+#about-me #column-right {
+  width: 50%;
+}
+#about-me #column-right .photo-me {
+  width: 80%;
+  text-align: right;
+  margin-top: 20px;
+}
+#info {
+  display: flex;
+  flex-flow: row ;
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#info .info-column {
+  font-size: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background-color: #D3D3D3;
+  padding: 10px;
+  width: 28%;
+  border-radius: 12px;
+  margin: 15px auto;
+}
+#info .info-column-title {
+  font-size: 35px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+  color: #5F9EA0;
+}
+#info .info-column-list {
+  color: #2F4F4F;
+  font-size: 20px;
+  list-style-type: circle;
+}
+#info .info-column-list li {
+  color: black;
+  margin-bottom: 20px;
+}
+#info .info-column-nested-list {
+  list-style-type: square;
+}
+#contact-info {
+  background-color: #D3D3D3;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 25px;
+}
+#contact-info #contact-request {
+  padding: 10px 4%;
+  width: 42%;
+  text-align: center;
+}
+#contact-info #contact-request p {
+  display: flex;
+}
+#contact-info #contact-request label {
+  width: 25%;
+  text-align: left;
+  padding-left: 5%;
+}
+#contact-info #contact-request input {
+  width: 70%;
+}
+#contact-info #contact-request textarea {
+  width: 70%;
+  margin-left: 30%;
+  padding: 0;
+  height: 100px;
+}
+#contact-info #contact-request .button-sections {
+  justify-content: flex-end;
+}
+#contact-info #contact-request .input {
+  width: auto;
+}
+.contact-info-title {
+  text-align: center;
+  color: #2F4F4F;
+  font-size: 40px;
+}
+#contact-details {
+  padding: 10px 4%;
+  width: 42%;
+}
+#contact-details li {
+  font-size: 24px;
+  list-style-type: none;
+}
+#contact-details#icon-links-linkedin a {
+  color: #0077b5;
+}
+#contact-details#icon-links-github a {
+  color: black;
+}
+#contact-details a {
+  text-decoration: none;
+}
+footer {
+  padding: 2px;
+  text-align: center;
+}
